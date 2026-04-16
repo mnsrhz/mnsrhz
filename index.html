@@ -717,9 +717,9 @@
         <span class="contact-link-icon">✉</span>
         hafeez.mansoor@gmail.com
       </a>
-      <a href="https://linkedin.com/in/mansoor-mohammed" class="contact-link" target="_blank">
+      <a href="https://linkedin.com/in/abdulmansoorhafeez" class="contact-link" target="_blank">
         <span class="contact-link-icon">in</span>
-        linkedin.com/in/mansoor-mohammed
+        linkedin.com/in/abdulmansoorhafeez
       </a>
       <a href="#" class="contact-link" onclick="alert('Resume download — attach your PDF here')">
         <span class="contact-link-icon">↓</span>
@@ -746,19 +746,19 @@
 // ── Case Study Data ───────────────────────────────────────────────────────────
 const cases = {
   'rf-ecom': {
-    client: 'Rodan + Fields', tag: 'Platform Strategy · Commerce · 0→1',
+    client: 'Large Skincare Company', tag: 'Platform Strategy · Commerce · 0→1',
     title: 'eCommerce Platform Modernization',
-    problem: 'R+F was a high-growth skincare startup whose legacy eCommerce website couldn\'t scale. It lacked critical capabilities — promotions, advanced subscriptions, customer care tools — needed to support exponential growth.',
+    problem: 'Client was a high-growth skincare startup whose legacy eCommerce website couldn\'t scale. It lacked critical capabilities — promotions, advanced subscriptions, customer care tools — needed to support exponential growth.',
     solution: 'Established a 3-year eCommerce Product Roadmap using a custom MVP framework, collaborating across Business, Engineering, Design, and Product stakeholders. Identified and implemented a best-fit modern commerce platform, completing a full E2E site launch in 9 months.',
     impact: [
       'Exceeded first-year revenue projections by 15% post-launch',
-      'Revamped UX moved R+F two places in Gartner\'s Digital Beauty Index',
+      'Revamped UX moved client two places in Gartner\'s Digital Beauty Index',
       'Established the foundation platform for all future product initiatives'
     ],
     metrics: ['Conversion Rate', 'Customer Acquisition', 'Order Volume & Value', 'Customer Call Volume', 'Net Promoter Score', 'Activation Rate']
   },
   'payments': {
-    client: 'Rodan + Fields', tag: 'Payments · Checkout · A/B Testing',
+    client: 'Large Skincare Company', tag: 'Payments · Checkout · A/B Testing',
     title: 'Buy Now Pay Later & Payment Modernization',
     problem: 'High-value cart sizes in luxury skincare were creating conversion barriers. Checkout had elevated drop-off and cart abandonment, and promotional levers alone weren\'t solving the structural problem.',
     solution: 'Led technical program delivery for Apple Pay, PayPal, and Klarna integrations. Used funnel analysis and discovery interviews to diagnose drop-offs, defined OKRs, and ran A/B tests on payment method rollout sequencing.',
@@ -771,7 +771,7 @@ const cases = {
     metrics: ['AOV', 'Cart Abandonment', 'Revenue Contribution', 'Enrollment Rates', 'Conversion Rate', 'Payment Error Rate']
   },
   'skin-quiz': {
-    client: 'Rodan + Fields', tag: 'ML · Discovery · Customer Acquisition',
+    client: 'Large Skincare Company', tag: 'ML · Discovery · Customer Acquisition',
     title: 'Skin Quiz & ML Recommendation Engine',
     problem: 'Customers lacked a way to identify which products would address their specific skincare needs, leading to decision paralysis and lower acquisition rates.',
     solution: 'Ran end-to-end product discovery — user research, hypothesis definition, iterative prototype testing — to identify acquisition gaps. Shipped an ML-powered Skin Quiz and recommendation engine with measurable OKRs and a clear purchase path.',
@@ -783,7 +783,7 @@ const cases = {
     metrics: ['New Customer Acquisition Rate', 'Conversion Rate', 'Quiz Engagement Rate']
   },
   'bundling': {
-    client: 'Rodan + Fields', tag: 'Checkout UX · Inventory · Product Design',
+    client: 'Large Skincare Company', tag: 'Checkout UX · Inventory · Product Design',
     title: 'Regimen Bundling Engine',
     problem: 'Regimen products (multi-step skincare routines sold as individual items) lacked an intuitive purchase experience. Pre-kitting caused locked inventory and stock-out issues for the merchant.',
     solution: 'Built a "Bundling" feature with a 4-step purchase wizard guiding customers through Cleanser, Toner, AM and PM Moisturizer selections. Fulfillment received itemized lists, eliminating pre-kitting entirely.',
@@ -795,7 +795,7 @@ const cases = {
     metrics: ['Regimen Conversion Rate', 'Engagement on PDP', 'Order Volume', 'Customer Call Volume', 'NPS']
   },
   'personal-shopper': {
-    client: 'Rodan + Fields', tag: 'Subscriptions · Account Management · Privacy',
+    client: 'Large Skincare Company', tag: 'Subscriptions · Account Management · Privacy',
     title: 'Personal Shopper — Delegated Account Access',
     problem: 'At the onset of COVID, reduced in-person connections meant Consultants couldn\'t sell or manage preferred customer skincare routines. Revenue from the PC customer base was declining.',
     solution: 'Developed a Personal Shopper experience allowing Preferred Customers to grant account management access to their Sponsors — enabling subscription management through impersonation while maintaining regulator-mandated privacy boundaries.',
@@ -807,21 +807,21 @@ const cases = {
     metrics: ['Revenue from PCs', 'NPS', 'Sign-up Volume', 'Additional Revenue from Pulse Pro Prerequisite']
   },
   'market-expansion': {
-    client: 'Rodan + Fields', tag: 'Globalization · Payments · Multi-tenant Architecture',
+    client: 'Large Skincare Company', tag: 'Globalization · Payments · Multi-tenant Architecture',
     title: 'Global Market Expansion — Canada, Australia & Japan',
-    problem: 'R+F\'s growth strategy required new international revenue streams. Canada, Australia, and Japan were identified as high-potential markets that could leverage the 2019 US platform as a foundation.',
+    problem: 'Client\'s growth strategy required new international revenue streams. Canada, Australia, and Japan were identified as high-potential markets that could leverage the 2019 US platform as a foundation.',
     solution: 'Adapted the US platform for region-specific requirements in a multi-instance, multi-site architectural framework. Launched three E2E websites with varying payment gateways including Vantiv, CyberSource, Paymetric, WorldPay, and Adyen.',
     impact: [
       'CAN and AUS markets added 8% incremental revenue',
-      'Japan established R+F\'s first Southeast Asian presence',
+      'Japan established Client\'s first Southeast Asian presence',
       'Multi-tenant global platform architecture established, reducing time-to-market for future geos'
     ],
     metrics: ['% Revenue Contribution', 'New Customer Acquisition', 'Time to Market for New Geos']
   },
   'rac-commerce': {
-    client: 'Rent-A-Center', tag: '0→1 · Lease Payments · Commerce',
-    title: 'Rent-A-Center Digital Commerce — 0→1',
-    problem: 'Rent-A-Center operated exclusively brick-and-mortar. They needed a complete eCommerce offering allowing customers to enroll in lease agreements for products, fulfilled via a hub-and-spoke store model.',
+    client: 'Lease-to-Own Retailer', tag: '0→1 · Lease Payments · Commerce',
+    title: 'Lease-to-Own Retailer Digital Commerce — 0→1',
+    problem: 'Lease-to-Own Retailer operated exclusively brick-and-mortar. They needed a complete eCommerce offering allowing customers to enroll in lease agreements for products, fulfilled via a hub-and-spoke store model.',
     solution: 'Established the Digital Commerce business case, supply chain model, and implemented an eCommerce website with a first-of-its-kind online lease enrollment process — enabling customers to make initial payments and sign lease documents through checkout.',
     impact: [
       'Online sales channel met $2M first-year revenue target',
@@ -830,7 +830,7 @@ const cases = {
     metrics: ['Conversion Rate', 'Online Revenue', 'Online Order Volume', 'Fulfillment Rate', 'Returns & Cancellations']
   },
   'rac-payments': {
-    client: 'Rent-A-Center', tag: 'Payments · Microservices · Account Management',
+    client: 'Lease-to-Own Retailer', tag: 'Payments · Microservices · Account Management',
     title: 'Lease Payments Portal',
     problem: 'Recurring lease payments were entirely offline — store reps accepted payments in a legacy Store Information Management System (SIMS). Customers had no way to pay, review, or manage their lease agreements online.',
     solution: 'Augmented the new eCommerce platform with an Account Management payments portal — supporting online payments, autopay management, payment method changes, lease schedule adjustments, and more. Built on a microservice architecture.',
@@ -842,14 +842,13 @@ const cases = {
     metrics: ['DAU on Payment Portal', 'Transaction Volume', 'Transaction Value', '% Online vs In-Store']
   },
   'atb': {
-    client: 'ATB Financial', tag: 'FinTech · Identity · 0→1',
+    client: 'Large Canadian Bank', tag: 'FinTech · Identity · 0→1',
     title: 'Online Bank Account Signup — Canada\'s First',
-    problem: 'ATB Financial wanted to allow customers to open bank accounts, credit cards, and loan products online — reducing branch footfall and expanding financial access to underserved areas.',
+    problem: 'Large Canadian Bank wanted to allow customers to open bank accounts, credit cards, and loan products online — reducing branch footfall and expanding financial access to underserved areas.',
     solution: 'Built Canada\'s first digital bank account opening channel with ID Checker identity verification — capturing customer photos and driver\'s licenses to authenticate users during checkout. A first-of-its-kind mechanism in Canadian banking.',
     impact: [
       '25% reduction in branch footfall for account enrollments',
       'Expanded financial inclusion for areas without nearby branch access',
-      'Established R+F\'s global platform as a model for future geo launches'
     ],
     metrics: ['Branch vs Online Account Opens', 'Customer Acquisition Rate', 'Call Volume for Enrollment Queries']
   }
